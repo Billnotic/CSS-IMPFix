@@ -19,5 +19,5 @@ classes/
 .settings
 *.launch
 
-forge/src/generated/
-fabric/src/main/generated/
+#forge/src/generated/
+#fabric/src/main/generated/
