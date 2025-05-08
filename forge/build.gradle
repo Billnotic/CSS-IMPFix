@@ -19,7 +19,7 @@ loom {
         mixinConfig "iammusicplayer-common.mixins.json"
 
         dataGen {
-            mod 'iammusicplayer'
+            mod 'create_sas'
         }
     }
 
