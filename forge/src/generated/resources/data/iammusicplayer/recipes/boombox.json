@@ -5,23 +5,26 @@
     "B": {
       "tag": "minecraft:buttons"
     },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
     "I": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:plates/iron"
     },
     "J": {
       "item": "minecraft:jukebox"
     },
     "N": {
       "item": "minecraft:note_block"
-    },
-    "T": {
-      "tag": "forge:nuggets/iron"
-    }
+	}
   },
   "pattern": [
-    "TBT",
+    "CBC",
     "NJN",
-    "III"
+    "IEI"
   ],
   "result": {
     "item": "iammusicplayer:boombox"

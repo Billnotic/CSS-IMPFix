@@ -6,48 +6,54 @@ license = "GNU LGPLv3"
 [[mods]]
 modId = "iammusicplayer"
 version = "${version}"
-displayName = "Iam Music Player Renewed"
-displayURL = "https://mod-sauce.github.io/impr.html"
+displayName = "Create: Songs and Speakers (Iam Music Player Renewed Fork)"
+displayURL = ""
 updateJSONURL = ""
-authors = "Us3r0, Shadowbee27"
-credits = "Mod-Sauce & contributers"
+authors = "Billnotic"
+credits = "MORIMORI0317, nin8995, and the other FelNull developers for OG IMP, Us3r0 and Shadowbee27 for renewed version."
 description = '''
-Add a boombox that can play music.
-The ikisugi music player mod...
+Modifies the ikisugi music player mod for better compatibility with Create.
 '''
 logoFile = "logo.png"
 
 [[dependencies.iammusicplayer]]
 modId = "forge"
 mandatory = true
-versionRange = "47.4.0"
+versionRange = "[47.2.0,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.iammusicplayer]]
 modId = "minecraft"
 mandatory = true
-versionRange = "1.20.1"
+versionRange = "[1.20.1]"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.iammusicplayer]]
 modId = "architectury"
 mandatory = true
-versionRange = "9.2.14"
+versionRange = "[9.2.14,)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.iammusicplayer]]
 modId = "cloth_config"
 mandatory = true
-versionRange = "11.1.136"
+versionRange = "[11.1.136,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.iammusicplayer]]
 modId = "otyacraftengine"
 mandatory = true
-versionRange = "3.7.0-alpha.7"
+versionRange = "[3.7.0-alpha.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.iammusicplayer]]
+modId = "create"
+mandatory = true
+versionRange = "[0.5.1.j,)"
 ordering = "NONE"
 side = "BOTH"

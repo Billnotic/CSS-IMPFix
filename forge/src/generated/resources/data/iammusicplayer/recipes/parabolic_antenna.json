@@ -3,20 +3,20 @@
   "category": "misc",
   "group": "antenna",
   "key": {
-    "B": {
-      "item": "minecraft:iron_block"
-    },
-    "E": {
-      "tag": "forge:ender_pearls"
-    },
     "I": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:plates/iron"
+    },
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "R": {
+      "item": "iammusicplayer:radio_antenna"
     }
   },
   "pattern": [
-    "IEI",
-    "I I",
-    " B "
+    "RIR",
+    "ILI",
+    "RIR"
   ],
   "result": {
     "item": "iammusicplayer:parabolic_antenna"

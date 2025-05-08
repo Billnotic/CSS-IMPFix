@@ -14,6 +14,9 @@ dependencies {
     modApi "dev.felnull:otyacraftengine:${rootProject.oe_version}"
     modApi "me.shedaniel.cloth:cloth-config:${rootProject.cloth_config_version}"
 
+    modApi "com.simibubi.create:create-${minecraft_version}:${create_version}"
+    modApi "cc.tweaked:cc-tweaked-1.20.1-forge:1.113.1"
+
     implementation "dev.felnull:felnull-java-library:${rootProject.felnull_version}"
 
     /*implementation("com.github.walkyst:lavaplayer-fork:${rootProject.lava_version}") {

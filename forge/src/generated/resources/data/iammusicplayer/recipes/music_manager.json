@@ -3,25 +3,31 @@
   "category": "misc",
   "key": {
     "B": {
-      "tag": "forge:gems/diamond"
+      "item": "create:brass_casing"
     },
-    "D": {
-      "tag": "forge:gems/diamond"
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "E": {
+      "item": "create:electron_tube"
     },
     "G": {
-      "tag": "forge:glass_panes"
+      "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:plates/iron"
+    },
+    "K": {
+      "item": "create:belt_connector"
     },
     "R": {
-      "tag": "forge:dusts/redstone"
+      "item": "create:redstone_link"
     }
   },
   "pattern": [
-    "III",
-    "DGR",
-    "BII"
+    "IIB",
+    "GCR",
+    "KKE"
   ],
   "result": {
     "item": "iammusicplayer:music_manager"

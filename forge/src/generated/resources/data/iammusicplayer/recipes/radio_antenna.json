@@ -3,16 +3,19 @@
   "category": "misc",
   "group": "antenna",
   "key": {
-    "E": {
-      "tag": "forge:ender_pearls"
-    },
     "I": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "create:shaft"
     }
   },
   "pattern": [
-    "E",
-    "I",
+    "R",
+    "S",
     "I"
   ],
   "result": {

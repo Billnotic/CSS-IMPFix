@@ -1,21 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "tag": "forge:nuggets/iron"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "CDC",
+        " K "
+    ],
+    "key": {
+        "B": {
+            "item": "create:belt_connector"
+        },
+        "C": {
+            "item": "create:cogwheel"
+        },
+        "D": {
+            "tag": "forge:ingots/copper"
+        },
+        "K": {
+            "tag": "forge:glass/colorless"
+        }
     },
-    {
-      "tag": "forge:glass"
-    },
-    {
-      "tag": "forge:dusts/redstone"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    }
-  ],
-  "result": {
-    "item": "iammusicplayer:cassette_tape_glass"
-  }
+    "result": {
+		"item": "iammusicplayer:cassette_tape_glass"
+	}
 }
