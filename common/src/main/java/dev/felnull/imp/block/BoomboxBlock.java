@@ -141,4 +141,16 @@ public class BoomboxBlock extends IMPBaseEntityBlock {
             return BoomboxItem.createByBE(boomboxBlockEntity, true);
         return super.getCloneItemStack(blockGetter, blockPos, blockState);
     }
+
+    @Override
+    public void neighborChanged(BlockState state, Level level, BlockPos pos, Block block, BlockPos fromPos, boolean isMoving) {
+        super.neighborChanged(state, level, pos, block, fromPos, isMoving);
+        if (level.isClientSide) return; //server side
+        BlockEntity be = level.getBlockEntity(pos);//grab that block lmao
+        if (!(be instanceof BoomboxBlockEntity boombox)) return;
+        boolean powered = level.hasNeighborSignal(pos); //figure out if its powered adjacently
+        if (powered) {
+            boombox.getBoomboxData().setPlaying((boombox.getBoomboxData().isPlaying())?false:true);//my jerry-rigged play-pause function
+        }
+    }
 }
