@@ -102,5 +102,14 @@ public class IMPRecipeProviderWrapper extends RecipeProviderWrapper {
                 .pattern("BII")
                 .unlockedBy(providerAccess.getHasName(Items.DIAMOND), providerAccess.has(Items.DIAMOND))
                 .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,IMPItems.SYNCHRONIZER.get())
+                .define('X',Items.STICK)
+                .define('Y',PlatformItemTags.ironIngots())
+                .pattern("  Y")
+                .pattern(" X ")
+                .pattern("X  ")
+                .unlockedBy(providerAccess.getHasName(Items.IRON_INGOT),providerAccess.has(Items.IRON_INGOT))
+                .save(exporter);
     }
 }
