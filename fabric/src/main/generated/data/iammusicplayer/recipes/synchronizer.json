@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "tag": "c:iron_ingots"
+    }
+  },
+  "pattern": [
+    "  Y",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "item": "iammusicplayer:synchronizer"
+  },
+  "show_notification": true
+}
