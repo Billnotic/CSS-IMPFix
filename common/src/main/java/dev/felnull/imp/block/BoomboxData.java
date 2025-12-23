@@ -399,6 +399,21 @@ public class BoomboxData {
         return noChangeCassetteTape;
     }
 
+    public void setPlayState(boolean state){
+        if(state){
+            if (isMusicCassetteTapeExist() || isRadio()) {
+                setPower(true);
+                setPlaying(true);
+            }
+        }else{
+            if (isPowered()) {
+                setPlaying(false);
+                //For some reason, this part doesn't work
+                setMusicPosition(0);
+            }
+        }
+    }
+
     public void setRadioSource(MusicSource radioSource) {
         this.radioSource = radioSource;
         update();

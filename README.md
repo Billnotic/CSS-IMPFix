@@ -15,9 +15,9 @@ forge/src/generated
 Do not edit these generated directories directly.  
 If you want to change the contents, please change the IamMusicPlayerDataGenerator or change the resources folder.
 
-## Transration
+## Translation
 
-If a kind person translates it, please open an Pull requests!
+If a kind person can translate it, please open a Pull request!
 
 [Templates used for translation](https://github.com/TeamFelnull/IamMusicPlayer/tree/master/common/src/main/resources/assets/iammusicplayer/lang)  
 [Template used for translating patchouli](https://github.com/TeamFelnull/IamMusicPlayer/tree/master/resources/data/iammusicplayer/patchouli_books/manual)
